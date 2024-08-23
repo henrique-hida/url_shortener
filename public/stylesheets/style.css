@@ -1,0 +1,92 @@
+body{
+  background-image: linear-gradient(45deg, rgb(48, 47, 47), #000000) !important;
+  background-size: cover !important;
+  min-height: 100vh;
+}
+
+h1{
+  color: #ffffff;
+}
+
+p{
+  color: #ffffff;
+}
+
+button{
+  background-color: #61e786 !important;
+  outline-color: #61e786 !important;
+  outline: none !important;
+  border: none; 
+  box-shadow: none; 
+}
+
+.btn {
+  background-color: #61e786 !important;
+  border: none !important;
+}
+
+.btn:focus, .btn:active {
+  outline: none !important;
+}
+
+
+
+.header{
+  padding: 3rem;
+  text-align: center;
+}
+
+.icon{
+  height: 40px;
+}
+
+.content{
+  display: flex;
+  justify-content: center !important;
+}
+
+.by{
+  display: flex;
+  justify-content: center !important;
+}
+
+form{
+  flex: 0 0 80%;
+  padding: 2rem 2rem 1rem 2rem;
+  border-radius: .25rem;
+  text-align: center;
+}
+
+.input-group-append{
+  background-color: #61e786;
+  border-radius: 7px;
+  outline-color: #61e786 !important;
+}
+
+.stats{
+  text-align: center;
+}
+
+.statsBox{
+  flex: 0 0 25%;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: .5rem;
+  text-align: center;
+  margin: .5rem;
+  color: #61e786;
+}
+
+.statsRow{
+  display: flex;
+  justify-content: center !important;
+}
+
+#novaurl{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.redirect{
+  color: #61e786;
+}
