@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: encurtador-url
+    env: node
+    buildCommand: 'npm install'
+    startCommand: 'npm start'
+    autoDeploy: true
+
